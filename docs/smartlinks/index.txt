@@ -35,6 +35,14 @@ If several items are found, then a ``<cite class="ambiguous">`` is returned by d
 
 Ambiguous items can be resolved by adding a disambiguator after the innermost brackets (``[t[On Our Selection]1920]]``).
 
+Additional options in the form of simple strings or key-value pairs may be specified after the disambiguator, separated by pipe (|):
+
+[t[On Our Selection]1920|class=silent]
+
+Models are free to use these options in any way it sees fit. In this example, the following output may result:
+
+<a href="/title/on-our-selection-1920/" class="silent">On Our Selection (1920)</a>
+
 
 Installation
 ------------
@@ -113,9 +121,9 @@ Smartlinks hooks
     def smartlink_fallback(self, link_text, disambiguator=None, arg=None):
         return '<cite class="unresolved">%s</cite>' % link_text
 
-* 'smartlink' function in model definition - how smartlink should be rendered. In case if it's not specified, a link to the model (with url from get_absolute_url) and a text inside a smartlink is generated::
+* 'smartlink' function in model definition - how smartlink should be rendered. Options in the smartlink are passed as "args" and "kwargs". In case if it's not specified, a link to the model (with url from get_absolute_url) and a text inside a smartlink is generated::
     
-    def smartlink(self, search_term):
+    def smartlink(self, search_term, *args, **kwargs):
         return '<a href="/person/%s/">%s</a>' % (self.slug, search_term)
         
         
