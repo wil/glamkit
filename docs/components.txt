@@ -9,13 +9,14 @@ Essentials
 
 glamkit
 ^^^^^^^
-This is the 'core' application, which contains code elements that are used by multiple GLAMkit components, as well as commands that can be used to install and integrate GLAMkit components, as well as the documentation.
+This is the 'core' application, which contains code elements that are used by multiple GLAMkit components, commands that can be used to install and integrate GLAMkit components and the documentation.
 
 `Source <http://github.com/glamkit/glamkit>`_
 
+
 glamkit-demo
 ^^^^^^^^^^^^
-An example project that makes use of most of the features of the GLAMkit framework. This is a good starting point to explore the functionality, and get a feel for the GLAMkit code flavour. 
+An example project that makes use of most of the features of the GLAMkit framework. This is a good starting point to explore the functionality, and get a feel for the GLAMkit code. 
 
 `Source <http://github.com/glamkit/glamkit-blogtools>`_ 
 
@@ -41,7 +42,7 @@ Superior moderation tools, email notification and starter templates.
 
 glamkit-eventtools
 ^^^^^^^^^^^^^^^^^^
-Public event management tools for your institution. Create an event model that subclasses EventBase, and you get sophisticated scheduling and repetition tools for free.
+Public event management tools for your institution. Create an event model that subclasses EventBase and you get sophisticated scheduling and repetition tools for free.
 
 `Source <http://github.com/glamkit/glamkit-eventtools>`_ |
 :doc:`Documentation <eventtools/index>`
@@ -76,19 +77,20 @@ Endorsed apps
 -------------
 .. note:: These are apps that exist outside the GLAMkit project, but work well in the GLAMkit ecosystem.
 
+
 FeinCMS
 ^^^^^^^
-A page based CMS that can use incorporate GLAMkit content apps
+A page based CMS that can incorporate GLAMkit content apps.
 http://github.com/matthiask/feincms
 
 django-reversion
 ^^^^^^^^^^^^^^^^
-Version control for your content
+Version control for your content.
 http://code.google.com/p/django-reversion/
 
 sorl-thumbnail
 ^^^^^^^^^^^^^^
-Image resizing on the fly
+Image resizing on the fly.
 http://code.google.com/p/sorl-thumbnail/
 
 Components under development
@@ -96,35 +98,35 @@ Components under development
 
 glamkit-sitesearch
 ^^^^^^^^^^^^^^^^^^
-Django hooks for Yahoo! BOSS and Google site search
+Django hooks for Yahoo! BOSS and Google site search.
 
 glamkit-assets
 ^^^^^^^^^^^^^^
-Re-usable, uploadable media assets (images, video, audio), with metadata
+Re-usable, uploadable media assets (images, video, audio) with metadata.
 
 glamkit-importance
 ^^^^^^^^^^^^^^^^^^
-Content ranking system. Flexible, powerful, 'featured content' management
+Content ranking system. Flexible, powerful, 'featured content' management.
 
 glamkit-publishing
 ^^^^^^^^^^^^^^^^^^
-Draft, published, removed modes for content. Time-based publishing
+Draft, published, removed modes for content. Time-based publishing.
 
 glamkit-favourites
 ^^^^^^^^^^^^^^^^^^
-Allow users to collect their favourite objects
+Allow users to collect their favourite objects.
 
 glamkit-audiotours
 ^^^^^^^^^^^^^^^^^^
-The name says it all
+Support for audiotours.
 
 glamkit-releases
 ^^^^^^^^^^^^^^^^
-Media releases
+Media releases.
 
 glamkit-exhibitions
 ^^^^^^^^^^^^^^^^^^^
-Tools to display exhibition info
+Tools to display exhibition info.
 
 In the pipeline
 ---------------

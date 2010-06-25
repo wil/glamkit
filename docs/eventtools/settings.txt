@@ -15,14 +15,14 @@ This setting determines which day of the week your calendar begins on if your lo
 OCCURRENCE_CANCEL_REDIRECT
 --------------------------
 
-This setting controls the behavior of :func:`Views.get_next_url`. If set, all calendar modifications will redirect here (unless there is a `next` set in the request.)
+This setting controls the behaviour of :func:`Views.get_next_url`. If set, all calendar modifications will redirect here (unless there is a `next` set in the request.)
 
 .. _ref-settings-show-cancelled-occurrences:
 
 SHOW_CANCELLED_OCCURRENCES
 --------------------------
 
-This setting controls the behavior of :func:`Period.classify_occurence`. If True, then occurences that have been cancelled will be displayed with a css class of canceled, otherwise they won't appear at all.
+This setting controls the behaviour of :func:`Period.classify_occurence`. If True, then occurrences that have been cancelled will be displayed with a CSS class of cancelled, otherwise they won't appear at all.
 
 Defaults to False
 
@@ -31,7 +31,7 @@ Defaults to False
 CHECK_PERMISSION_FUNC
 ---------------------
 
-This setting controls the callable used to determine if a user has permission to edit an event or occurance. The callable must take the object and the user and return a boolean. 
+This setting controls the callable used to determine if a user has permission to edit an event or occurrence. The callable must take the object and the user and return a boolean. 
 
 example::
 

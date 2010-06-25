@@ -14,5 +14,5 @@ However, we should stress that it *is* alpha code. There are still significant h
 
 GLAMkit is owned by the non-profit GLAMkit Association, and has arisen from the work of the `Interaction Consortium <http://interaction.net.au/>`_, an interaction design and Web development company based in Sydney, Australia, and two of their clients, the `National Film and Sound Archive <http://nfsa.gov.au/>`_ and the `Art Gallery of New South Wales <http://artgallery.nsw.gov.au>`_. It is released under the very liberal BSD license.
 
-Thanks to the staff of the Art Gallery of New South Wales and the staff of the National Film and Sound Agency for supporting work on GLAMkit and contributing ideas and code. Thanks to Brett Goulder, Sarah Champion and Duan Sebastian for their work on the forthcoming GLAMkit community site. Thanks to Iris Lockyer at the Interaction Consortium for editorial assistance.
+Thanks to the staff of the Art Gallery of New South Wales and the staff of the National Film and Sound Agency for supporting work on GLAMkit and contributing ideas and code. Thanks to Brett Goulder, Sarah Champion and Duan Sebastian for their work on the GLAMkit community site. Thanks to Iris Lockyer at the Interaction Consortium for editorial assistance.
 

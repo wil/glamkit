@@ -1,1 +1,5 @@
-stub
+====================
+Glamkit-commenttools
+====================
+
+A tool for building user commenting apps.
