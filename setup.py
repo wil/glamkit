@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='glamkit',
-    version='0.5',
+    version='0.5.0',
     author='Thomas Ashelford',
     author_email='thomas@interaction.net.au',
     description='A Django toolkit for building websites for the Galleries, Libraries, Archives and Museums sector.',
